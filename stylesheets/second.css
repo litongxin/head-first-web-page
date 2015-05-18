@@ -1,0 +1,281 @@
+/* line 8, ../sass/second.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 15, ../sass/second.scss */
+body {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 50px 48px 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* line 22, ../sass/second.scss */
+.sidebar {
+  float: left;
+}
+
+/* line 26, ../sass/second.scss */
+.logo {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 0 20px 20px;
+  background: url("../images/food-sense.png") no-repeat 0 0;
+}
+
+/* line 35, ../sass/second.scss */
+.nav-list .nav-item {
+  margin-bottom: 18px;
+  padding-left: 20px;
+}
+
+/* line 41, ../sass/second.scss */
+.nav-link {
+  display: block;
+  height: 32px;
+  padding: 4px 0 0 44px;
+  background-position: 0 65%;
+  color: #34AC98;
+}
+
+/* line 49, ../sass/second.scss */
+.nav1 {
+  background: url("../images/camera.svg") no-repeat;
+}
+
+/* line 53, ../sass/second.scss */
+.nav2 {
+  background: url("../images/blog.svg") no-repeat;
+}
+
+/* line 57, ../sass/second.scss */
+.nav3 {
+  background: url("../images/headphones.svg") no-repeat;
+}
+
+/* line 61, ../sass/second.scss */
+.nav4 {
+  background: url("../images/music.svg") no-repeat;
+}
+
+/* line 65, ../sass/second.scss */
+.nav5 {
+  background: url("../images/tv.svg") no-repeat;
+}
+
+/* line 69, ../sass/second.scss */
+.social-list {
+  margin: 50px 0;
+}
+
+/* line 73, ../sass/second.scss */
+.social-item {
+  margin: 20px 0;
+  padding: 0 20px 0 20px;
+}
+/* line 76, ../sass/second.scss */
+.social-item .social-detail {
+  font-size: 0.6825em;
+  max-width: 130px;
+}
+
+/* line 82, ../sass/second.scss */
+.social-title {
+  font-size: 0.75em;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #E5E5E5;
+}
+
+/* line 88, ../sass/second.scss */
+.social-link {
+  display: block;
+  height: 24px;
+  padding: 4px 6px 0 28px;
+  color: #34AC98;
+  font-size: 0.6825em;
+  text-align: center;
+  line-height: 2.2em;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+}
+
+/* line 100, ../sass/second.scss */
+.twitter {
+  background: url("../images/twitter.svg") no-repeat 6px 6px;
+}
+
+/* line 104, ../sass/second.scss */
+.facebook {
+  background: url("../images/facebook.svg") no-repeat 6px 6px;
+}
+
+/* line 108, ../sass/second.scss */
+.container {
+  float: right;
+}
+
+/* line 113, ../sass/second.scss */
+.slides .slide {
+  height: 445px;
+}
+/* line 115, ../sass/second.scss */
+.slides .slide .slide-img {
+  width: 100%;
+}
+/* line 118, ../sass/second.scss */
+.slides .slide .slide-content {
+  position: absolute;
+  top: 350px;
+  right: 180px;
+  text-align: right;
+}
+/* line 123, ../sass/second.scss */
+.slides .slide .slide-content .slide-title {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 10px 24px;
+  background-color: white;
+  display: inline-block;
+}
+/* line 130, ../sass/second.scss */
+.slides .slide .slide-content .slide-detail {
+  font-size: 1em;
+  margin: 0;
+  padding: 8px 24px;
+  color: white;
+  background-color: black;
+}
+
+/* line 141, ../sass/second.scss */
+.highlights {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 145, ../sass/second.scss */
+.highlights .highlight {
+  padding: 20px 20px 0 20px;
+  float: left;
+  width: 20.5%;
+  color: #34AC98;
+  background-color: #EFF8F7;
+}
+/* line 151, ../sass/second.scss */
+.highlights .highlight .hl-title {
+  font-size: 1em;
+  margin: 0;
+}
+/* line 155, ../sass/second.scss */
+.highlights .highlight .hl-detail {
+  font-size: 0.75em;
+  margin: 10px auto;
+}
+
+/* line 162, ../sass/second.scss */
+#hl-3 {
+  background-color: #D9EFEC;
+}
+
+/* line 166, ../sass/second.scss */
+.subscribe-form {
+  margin: 20px auto;
+  border-top: 1px dashed #E5E5E5;
+  border-bottom: 1px dashed #E5E5E5;
+}
+/* line 170, ../sass/second.scss */
+.subscribe-form .sf-summary {
+  width: 450px;
+  padding: 4px 0 0 62px;
+  font-size: 0.8em;
+  background: url("../images/envelop.svg") no-repeat 18px 0;
+  float: left;
+}
+/* line 177, ../sass/second.scss */
+.subscribe-form form {
+  float: left;
+  margin: 18px 0;
+}
+/* line 180, ../sass/second.scss */
+.subscribe-form form input[type="email"] {
+  width: 270px;
+  margin: 0 10px;
+  padding: 4px;
+}
+
+/* line 189, ../sass/second.scss */
+.articles .article {
+  width: 206px;
+  margin: 0 24px 25px 0;
+  float: left;
+}
+/* line 193, ../sass/second.scss */
+.articles .article .article-img {
+  width: 185px;
+  padding: 9px;
+  border: 1px solid #E5E5E5;
+  background: white;
+}
+/* line 199, ../sass/second.scss */
+.articles .article .article-title {
+  font-size: 1em;
+  color: #34AC98;
+}
+/* line 204, ../sass/second.scss */
+.articles .article .article-meta time {
+  color: #AAAAAA;
+}
+/* line 207, ../sass/second.scss */
+.articles .article .article-meta a {
+  color: #34AC98;
+}
+/* line 211, ../sass/second.scss */
+.articles .article:last-child {
+  margin: 0 0 25px 0;
+}
+
+/* line 217, ../sass/second.scss */
+.footer {
+  border-top: 2px solid #E5E5E5;
+  font-size: 0.75em;
+}
+/* line 220, ../sass/second.scss */
+.footer .footer-links {
+  display: inline-block;
+  margin: 20px 0 5px;
+}
+/* line 223, ../sass/second.scss */
+.footer .footer-links a {
+  color: #34AC98;
+}
+/* line 227, ../sass/second.scss */
+.footer .footer-info {
+  margin: 0;
+  color: #AAAAAA;
+}
+/* line 231, ../sass/second.scss */
+.footer .social {
+  float: right;
+  list-style: none;
+}
+/* line 234, ../sass/second.scss */
+.footer .social li {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+/* line 240, ../sass/second.scss */
+.footer #twitter {
+  background: url("../images/twitter2.svg") no-repeat 0 0;
+}
+/* line 243, ../sass/second.scss */
+.footer #facebook {
+  background: url("../images/facebook2.svg") no-repeat 0 0;
+}
+/* line 246, ../sass/second.scss */
+.footer #rss {
+  background: url("../images/feed.svg") no-repeat 0 0;
+}

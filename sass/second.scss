@@ -1,0 +1,249 @@
+$dark-green:#34AC98;
+$middle-green:#D9EFEC;
+$light-green:#EFF8F7;
+$orange:#EC6635;
+$grey:#E5E5E5;
+$dark-grey:#AAAAAA;
+.clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+body {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px 48px 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.sidebar {
+    float: left;
+}
+
+.logo {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 0 20px 20px;
+    background: url("../images/food-sense.png") no-repeat 0 0;
+}
+
+.nav-list {
+    .nav-item {
+        margin-bottom: 18px;
+        padding-left: 20px;
+    }
+}
+
+.nav-link {
+    display: block;
+    height: 32px;
+    padding: 4px 0 0 44px;
+    background-position: 0 65%;
+    color: $dark-green;
+}
+
+.nav1 {
+    background: url("../images/camera.svg") no-repeat;
+}
+
+.nav2 {
+    background: url("../images/blog.svg") no-repeat;
+}
+
+.nav3 {
+    background: url("../images/headphones.svg") no-repeat;
+}
+
+.nav4 {
+    background: url("../images/music.svg") no-repeat;
+}
+
+.nav5 {
+    background: url("../images/tv.svg") no-repeat;
+}
+
+.social-list {
+    margin: 50px 0;
+}
+
+.social-item {
+    margin: 20px 0;
+    padding: 0 20px 0 20px;
+    .social-detail {
+        font-size: 0.6825em;
+        max-width: 130px;
+    }
+}
+
+.social-title {
+    font-size: 0.75em;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed $grey;
+}
+
+.social-link {
+    display: block;
+    height: 24px;
+    padding: 4px 6px 0 28px;
+    color: $dark-green;
+    font-size: 0.6825em;
+    text-align: center;
+    line-height: 2.2em;
+    border: 1px solid $grey;
+    border-radius: 3px;
+}
+
+.twitter {
+    background: url("../images/twitter.svg") no-repeat 6px 6px;
+}
+
+.facebook {
+    background: url("../images/facebook.svg") no-repeat 6px 6px;
+}
+
+.container {
+    float: right;
+}
+
+.slides {
+    .slide {
+        height: 445px;
+        .slide-img {
+            width: 100%;
+        }
+        .slide-content {
+            position: absolute;
+            top: 350px;
+            right: 180px;
+            text-align: right;
+            .slide-title {
+                font-size: 1.2em;
+                margin: 0;
+                padding: 10px 24px;
+                background-color: white;
+                display: inline-block;
+            }
+            .slide-detail {
+                font-size: 1em;
+                margin: 0;
+                padding: 8px 24px;
+                color: white;
+                background-color: black;
+            }
+        }
+    }
+}
+
+.highlights {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    .highlight {
+        padding: 20px 20px 0 20px;
+        float: left;
+        width: 20.5%;
+        color: $dark-green;
+        background-color: $light-green;
+        .hl-title {
+            font-size: 1em;
+            margin: 0;
+        }
+        .hl-detail {
+            font-size: 0.75em;
+            margin: 10px auto;
+        }
+    }
+}
+
+#hl-3 {
+    background-color: $middle-green;
+}
+
+.subscribe-form {
+    margin: 20px auto;
+    border-top: 1px dashed $grey;
+    border-bottom: 1px dashed $grey;
+    .sf-summary {
+        width: 450px;
+        padding: 4px 0 0 62px;
+        font-size: 0.8em;
+        background: url("../images/envelop.svg") no-repeat 18px 0;
+        float: left;
+    }
+    form {
+        float: left;
+        margin: 18px 0;
+        input[type="email"] {
+            width: 270px;
+            margin: 0 10px;
+            padding: 4px;
+        }
+    }
+}
+
+.articles {
+    .article {
+        width: 206px;
+        margin: 0 24px 25px 0;
+        float: left;
+        .article-img {
+            width: 185px;
+            padding: 9px;
+            border: 1px solid $grey;
+            background: white;
+        }
+        .article-title {
+            font-size: 1em;
+            color: $dark-green;
+        }
+        .article-meta {
+            time {
+                color: $dark-grey;
+            }
+            a {
+                color: $dark-green;
+            }
+        }
+        &:last-child {
+            margin: 0 0 25px 0;
+        }
+    }
+}
+
+.footer {
+    border-top: 2px solid $grey;
+    font-size: 0.75em;
+    .footer-links {
+        display: inline-block;
+        margin: 20px 0 5px;
+        a {
+            color: $dark-green;
+        }
+    }
+    .footer-info {
+        margin: 0;
+        color: $dark-grey;
+    }
+    .social {
+        float: right;
+        list-style: none;
+        li {
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+        }
+    }
+    #twitter {
+        background: url("../images/twitter2.svg") no-repeat 0 0;
+    }
+    #facebook {
+        background: url("../images/facebook2.svg") no-repeat 0 0;
+    }
+    #rss {
+        background: url("../images/feed.svg") no-repeat 0 0;
+    }
+}
