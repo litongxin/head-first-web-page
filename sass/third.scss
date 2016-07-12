@@ -1,0 +1,106 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "../stylesheets/fontello.css";
+
+$light-grey: #fafafa;
+$grass-green: #1c9963;
+$middle-grey: #8e8e8e;
+$dark-grey: #323232;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+body {
+  font-size: 0.75rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $light-grey;
+}
+
+.card {
+  margin: 5% auto;
+  padding: 10px;
+}
+
+.article {
+  background-color: white;
+  max-width: 600px;
+  color: $middle-grey;
+  .related-data {
+    margin: 5px;
+    .author-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .author-info {
+      margin-left: 5px;
+      line-height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      .divider-dot:after{
+        content: '·';
+      }
+    }
+  }
+  .article-media {
+    img {
+      width: 100%;
+    }
+  }
+  .article-container {
+    margin-top: 10px;
+    .article-title {
+      font-size: 1.8rem;
+      color: $dark-grey;
+    }
+    .article-desc {
+      margin: 5px 0 10px;
+      font-size: 1.4rem;
+      font-weight: 300;
+    }
+    .article-rm {
+      color: $middle-grey;
+    }
+  }
+  .interaction-list {
+    margin-top: 20px;
+    @include clearfix;
+    .interaction-item{
+      display: inline-block;
+      font-size: 1rem;
+      font-weight:200;
+      .item-icon{
+        font-size: 1.2rem;
+      }
+      .item-label{
+        font-size: 0.8rem;
+      }
+    }
+    .like{
+      .item-label{
+        margin-left: 5px;
+      }
+      .item-icon{
+        float: left;
+        color: $grass-green;
+      }
+    }
+    .bookmark{
+      float: right;
+    }
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: $grass-green;
+}
