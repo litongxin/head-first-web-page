@@ -111,14 +111,15 @@ body {
 
 .slides {
     .slide {
+        position: relative;
         height: 445px;
         .slide-img {
             width: 100%;
         }
         .slide-content {
             position: absolute;
-            top: 350px;
-            right: 180px;
+            right: 0;
+            bottom: 80px;
             text-align: right;
             .slide-title {
                 font-size: 1.2em;
