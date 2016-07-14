@@ -1,0 +1,101 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "../stylesheets/fontello.css";
+
+$light-grey: #fafafa;
+$grass-green: #1c9963;
+$middle-grey: #8e8e8e;
+$dark-grey: #323232;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: $light-grey;
+}
+.card{
+  margin: 3% auto;
+  padding: 10px;
+}
+
+.article{
+background-color: white;
+max-width: 600px;
+color: $middle-grey;
+.related-data{
+  margin: 5px;
+  .author-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  .author-info{
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.8rem;
+    line-height: 18px;
+    .divider-dot:after{
+      content: '·';
+    }
+  }
+}
+.article-media{
+  img{
+    width: 100%;
+  }
+}
+.article-title{
+  margin: 10px 0;
+  font-size: 1.6rem;
+  color:$dark-grey;
+  font-weight: bold;
+}
+.article-desc{
+  margin: 5px 0 10px;
+  font-size: 1.2rem;
+  font-weight:normal;
+}
+.article-rm{
+  font-size: 0.8rem;
+  color: $middle-grey;
+}
+.interaction-list{
+  margin-top: 10px;
+  @include clearfix;
+  .interaction-item{
+    display: inline-block;
+    .item-icon{
+      font-size:1.2rem;
+    }
+    .item-label{
+      margin-left: 5px;
+      font-size: 0.8rem;
+    }
+    }
+    .like{
+      .item-icon{
+        float: left;
+        color: $grass-green;
+      }
+
+  }
+  .bookmark{
+    float: right;
+  }
+}
+}
+
+.link{
+  color: $grass-green;
+  text-decoration: none;
+}
