@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 18, ../sass/third_v2.scss */
+/* line 10, ../sass/third_v3.scss */
 body {
   margin: 0;
   padding: 0;
@@ -73,30 +73,30 @@ body {
   background-color: #fafafa;
 }
 
-/* line 25, ../sass/third_v2.scss */
+/* line 17, ../sass/third_v3.scss */
 .card {
-  margin: 3% auto;
+  margin: 5% auto;
   padding: 10px;
 }
 
-/* line 30, ../sass/third_v2.scss */
+/* line 22, ../sass/third_v3.scss */
 .article {
   background-color: white;
   max-width: 600px;
   color: #8e8e8e;
 }
-/* line 34, ../sass/third_v2.scss */
+/* line 26, ../sass/third_v3.scss */
 .article .related-data {
-  margin: 5px;
+  margin-bottom: 10px;
 }
-/* line 36, ../sass/third_v2.scss */
+/* line 28, ../sass/third_v3.scss */
 .article .related-data .author-avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   vertical-align: middle;
 }
-/* line 42, ../sass/third_v2.scss */
+/* line 34, ../sass/third_v3.scss */
 .article .related-data .author-info {
   margin-left: 5px;
   display: inline-block;
@@ -104,67 +104,61 @@ body {
   font-size: 0.8rem;
   line-height: 18px;
 }
-/* line 48, ../sass/third_v2.scss */
+/* line 40, ../sass/third_v3.scss */
 .article .related-data .author-info .divider-dot:after {
   content: '·';
 }
-/* line 54, ../sass/third_v2.scss */
+/* line 46, ../sass/third_v3.scss */
 .article .article-media img {
   width: 100%;
 }
-/* line 58, ../sass/third_v2.scss */
+/* line 50, ../sass/third_v3.scss */
 .article .article-title {
   margin: 10px 0;
   font-size: 1.6rem;
   color: #323232;
   font-weight: bold;
 }
-/* line 64, ../sass/third_v2.scss */
+/* line 56, ../sass/third_v3.scss */
 .article .article-desc {
   margin: 5px 0 10px;
   font-size: 1.2rem;
   font-weight: normal;
 }
-/* line 69, ../sass/third_v2.scss */
+/* line 61, ../sass/third_v3.scss */
 .article .article-rm {
   font-size: 0.8rem;
   color: #8e8e8e;
 }
-/* line 73, ../sass/third_v2.scss */
+/* line 65, ../sass/third_v3.scss */
 .article .interaction-list {
   margin-top: 10px;
 }
-/* line 11, ../sass/third_v2.scss */
-.article .interaction-list:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 76, ../sass/third_v2.scss */
+/* line 67, ../sass/third_v3.scss */
 .article .interaction-list .interaction-item {
   display: inline-block;
 }
-/* line 78, ../sass/third_v2.scss */
+/* line 69, ../sass/third_v3.scss */
 .article .interaction-list .interaction-item .item-icon {
   font-size: 1.2rem;
 }
-/* line 81, ../sass/third_v2.scss */
+/* line 72, ../sass/third_v3.scss */
 .article .interaction-list .interaction-item .item-label {
-  margin-left: 5px;
   font-size: 0.8rem;
+  margin-left: 5px;
 }
-/* line 87, ../sass/third_v2.scss */
+/* line 78, ../sass/third_v3.scss */
 .article .interaction-list .like .item-icon {
   float: left;
   color: #1c9963;
 }
-/* line 93, ../sass/third_v2.scss */
+/* line 83, ../sass/third_v3.scss */
 .article .interaction-list .bookmark {
   float: right;
 }
 
-/* line 99, ../sass/third_v2.scss */
+/* line 89, ../sass/third_v3.scss */
 .link {
-  color: #1c9963;
   text-decoration: none;
+  color: #1c9963;
 }

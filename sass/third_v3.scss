@@ -7,39 +7,31 @@ $grass-green: #1c9963;
 $middle-grey: #8e8e8e;
 $dark-grey: #323232;
 
-@mixin clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-body {
+body{
   margin: 0;
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
   background-color: $light-grey;
 }
 
-.card {
-  margin: 3% auto;
+.card{
+  margin: 5% auto;
   padding: 10px;
 }
 
-.article {
+.article{
   background-color: white;
   max-width: 600px;
   color: $middle-grey;
-  .related-data {
-    margin: 5px;
-    .author-avatar {
+  .related-data{
+    margin-bottom: 10px;
+    .author-avatar{
       width: 40px;
       height: 40px;
       border-radius: 50%;
       vertical-align: middle;
     }
-    .author-info {
+    .author-info{
       margin-left: 5px;
       display: inline-block;
       vertical-align: middle;
@@ -50,53 +42,52 @@ body {
       }
     }
   }
-  .article-media {
-    img {
+  .article-media{
+    img{
       width: 100%;
     }
   }
-  .article-title {
+  .article-title{
     margin: 10px 0;
     font-size: 1.6rem;
     color: $dark-grey;
     font-weight: bold;
   }
-  .article-desc {
+  .article-desc{
     margin: 5px 0 10px;
     font-size: 1.2rem;
     font-weight: normal;
   }
-  .article-rm {
+  .article-rm{
     font-size: 0.8rem;
     color: $middle-grey;
   }
-  .interaction-list {
+  .interaction-list{
     margin-top: 10px;
-    @include clearfix;
-    .interaction-item {
+    .interaction-item{
       display: inline-block;
-      .item-icon {
+      .item-icon{
         font-size: 1.2rem;
       }
-      .item-label {
-        margin-left: 5px;
+      .item-label{
         font-size: 0.8rem;
+        margin-left: 5px;
       }
     }
-    .like {
-      .item-icon {
+    .like{
+      .item-icon{
         float: left;
         color: $grass-green;
       }
-
     }
-    .bookmark {
+    .bookmark{
       float: right;
     }
   }
 }
 
-.link {
-  color: $grass-green;
+.link{
   text-decoration: none;
+  color: $grass-green;
 }
+
