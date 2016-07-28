@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 11, ../sass/fourth.scss */
+/* line 13, ../sass/fourth.scss */
 body {
   margin: 0;
   padding: 0;
@@ -73,50 +73,53 @@ body {
   background-color: #323334;
 }
 
-/* line 19, ../sass/fourth.scss */
+/* line 21, ../sass/fourth.scss */
 .item-icon {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #DCDDDE;
 }
 
-/* line 24, ../sass/fourth.scss */
+/* line 26, ../sass/fourth.scss */
 .invitation-form {
+  box-sizing: border-box;
   min-width: 350px;
   max-width: 600px;
-  margin: 20px auto;
+  margin: 40px auto;
   padding: 0 15px;
+  border-radius: 3px;
   background-color: white;
 }
-/* line 30, ../sass/fourth.scss */
+/* line 34, ../sass/fourth.scss */
 .invitation-form .invitation-title {
-  padding-top: 60px;
+  padding-top: 58px;
   font-size: 2rem;
   text-align: center;
 }
-/* line 35, ../sass/fourth.scss */
+/* line 39, ../sass/fourth.scss */
 .invitation-form .invitation-desc {
-  padding: 15px 0;
+  padding: 12px 0 30px;
   color: #D1D2D3;
   text-align: center;
 }
-/* line 40, ../sass/fourth.scss */
-.invitation-form .icon-search {
-  position: absolute;
-  top: -10px;
-  right: -30px;
-}
-/* line 45, ../sass/fourth.scss */
+/* line 44, ../sass/fourth.scss */
 .invitation-form .person-list {
   border-top: 1px solid #D1D2D3;
   position: relative;
-  margin: 20px 30px 20px 0;
+  margin: 20px 30px 32px 0;
+  padding-top: 8px;
 }
 /* line 49, ../sass/fourth.scss */
+.invitation-form .person-list .icon-search {
+  position: absolute;
+  top: -12px;
+  right: -32px;
+}
+/* line 54, ../sass/fourth.scss */
 .invitation-form .person-list .person-item {
   position: relative;
-  margin: 20px auto;
+  margin: 30px auto;
 }
-/* line 52, ../sass/fourth.scss */
+/* line 57, ../sass/fourth.scss */
 .invitation-form .person-list .person-item .person-avatar {
   width: 50px;
   height: 50px;
@@ -125,35 +128,36 @@ body {
   margin-right: 10px;
   vertical-align: middle;
 }
-/* line 60, ../sass/fourth.scss */
+/* line 65, ../sass/fourth.scss */
 .invitation-form .person-list .person-item .person-info {
   display: inline-block;
   box-sizing: border-box;
   vertical-align: middle;
 }
-/* line 64, ../sass/fourth.scss */
+/* line 69, ../sass/fourth.scss */
 .invitation-form .person-list .person-item .person-info .person-name {
   color: #7DB336;
+  margin-bottom: 5px;
 }
-/* line 67, ../sass/fourth.scss */
+/* line 73, ../sass/fourth.scss */
 .invitation-form .person-list .person-item .person-info .person-skill {
   color: #DCDDDE;
   font-size: 0.8rem;
   display: block;
-  margin: 5px auto;
+  margin-bottom: 5px;
 }
-/* line 73, ../sass/fourth.scss */
+/* line 79, ../sass/fourth.scss */
 .invitation-form .person-list .person-item .person-info .person-location {
   color: #D1D2D3;
   margin-right: 10px;
 }
-/* line 78, ../sass/fourth.scss */
+/* line 84, ../sass/fourth.scss */
 .invitation-form .person-list .person-item .item-icon {
   position: absolute;
   top: 30px;
-  right: -30px;
+  right: -32px;
 }
-/* line 85, ../sass/fourth.scss */
+/* line 91, ../sass/fourth.scss */
 .invitation-form .invitation-input {
   width: 100%;
   height: 50px;
@@ -162,29 +166,46 @@ body {
   border: 1px solid #DCDDDE;
   box-sizing: border-box;
   color: #D1D2D3;
-  padding: 5px 15px;
+  padding: 5px 20px;
+  border-radius: 3px;
+  outline: 0;
 }
-/* line 95, ../sass/fourth.scss */
+/* line 103, ../sass/fourth.scss */
 .invitation-form .invitation-button {
-  margin: 20px 0;
+  margin: 30px 0 40px;
   width: 100%;
-  height: 50px;
+  height: 60px;
+  font-size: 1.125rem;
   box-sizing: border-box;
-  padding: 5px 10px;
+  padding: 5px 20px;
   color: white;
   border: none;
   background-color: #E6508A;
+  border-radius: 3px;
   cursor: pointer;
 }
 
 @media (min-width: 768px) {
-  /* line 109, ../sass/fourth.scss */
+  /* line 119, ../sass/fourth.scss */
   .invitation-form {
     padding: 0 50px;
   }
-  /* line 113, ../sass/fourth.scss */
+  /* line 121, ../sass/fourth.scss */
+  .invitation-form .person-list {
+    margin: 20px 38px 32px 0;
+  }
+  /* line 123, ../sass/fourth.scss */
+  .invitation-form .person-list .icon-search {
+    right: -43px;
+  }
+  /* line 127, ../sass/fourth.scss */
   .invitation-form .person-list .person-item .person-avatar {
     width: 80px;
     height: 80px;
+    margin-right: 25px;
+  }
+  /* line 132, ../sass/fourth.scss */
+  .invitation-form .person-list .person-item .item-icon {
+    right: -43px;
   }
 }
